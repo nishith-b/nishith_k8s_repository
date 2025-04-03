@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: cart-page-rs
-  namespace: pranavas-ns
+  namespace: nishith-ns
 spec:
   replicas: 3
   selector:
